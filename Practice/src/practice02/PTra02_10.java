@@ -23,8 +23,8 @@ public class PTra02_10 {
 		 */
 		int coffees = coffee * 2;
 		double things = (coffees + snack) * 1.08;
-		double a = 1000 - things;
-		int money = (int) a;
+		int a = (int)things;
+		int money = 1000 - a;
 
 		System.out.println(money);
 
