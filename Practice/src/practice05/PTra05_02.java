@@ -33,11 +33,10 @@ public class PTra05_02 {
 		
 		switch(input%2) {
 			case 0:
-				System.out.println(input+"は偶数です");
+				System.out.println(input+"は偶数です。");
 				break;
 			default:
-				System.out.println(input+"は奇数です");
-			
+				System.out.println(input+"は奇数です。");	
 		
 		}
 				
