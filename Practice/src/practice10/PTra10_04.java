@@ -15,10 +15,10 @@ public class PTra10_04 {
 	public static void main(String[] args) {
 
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
-
+		User[] users;
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
-
+		 java.util.Scanner scanner = new  java.util.Scanner();
 
 		// ★ usersのサイズ分繰り返す制御構文を記述してください
 		//----------- ループ start
