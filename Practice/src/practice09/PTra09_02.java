@@ -1,10 +1,4 @@
 package practice09;
-/*
- * PTra09_02.java
- *   作成	LIKEIT	2017
- *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
- */
 import practice09.util.Util;
 
 public class PTra09_02 {
