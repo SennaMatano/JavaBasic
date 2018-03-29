@@ -15,7 +15,7 @@ public interface Course {
 	 * @return	単元の名称
 	 */
 	String getCourseName();
-
+	
 	/**
 	 * コースの単元を取得します
 	 * 例）プログラミングの書き方、式と演算子　など
