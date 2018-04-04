@@ -20,7 +20,14 @@ public class PTra11_02 {
 		
 		String input = new java.util.Scanner(System.in).nextLine();
 		
-		for(int i = 0 ; i < books.length ; i++) {
+
+		for (Book book : books) {
+			if (book.title.indexOf(input) >= 0) {
+				System.out.println(book.dispBookInfo());
+				System.out.println("-----------------------------");
+			}
+		}
+		/*for(int i = 0 ; i < books.length ; i++) {
 			
 			int result = books[i].title.indexOf(input);
 			
@@ -30,8 +37,8 @@ public class PTra11_02 {
 			}else {
 				continue;
 			}
-			
+			*/
 		}
 		
 	}
-}
+

@@ -20,7 +20,7 @@ public class PTra16_02 {
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 		
-		java.lang.Boolean Boolean = new java.lang.Boolean(b);
+		/*java.lang.Boolean Boolean = new java.lang.Boolean(b);
 		java.lang.Byte Byte = new java.lang.Byte(by);
 		java.lang.Short Short = new java.lang.Short(s);
 		java.lang.Character Character = new java.lang.Character(c);
@@ -28,7 +28,26 @@ public class PTra16_02 {
 		java.lang.Long Long = new java.lang.Long(l);
 		java.lang.Float Float = new java.lang.Float(f);
 		java.lang.Double Double = new java.lang.Double(d);
+		*/
+		
+		 Boolean bb = b;
+	        Byte bby = by;
+	        Short ss = s;
+	        Character cc = c;
+	        Integer ii = i;
+	        Long ll = l;
+	        Float ff = f;
+	        Double dd = d;
 
+	        // 出力用
+	        System.out.println(bb);
+	        System.out.println(bby);
+	        System.out.println(ss);
+	        System.out.println(cc);
+	        System.out.println(ii);
+	        System.out.println(ll);
+	        System.out.println(ff);
+	        System.out.println(dd);
 
 
 

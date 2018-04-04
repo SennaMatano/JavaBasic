@@ -20,7 +20,7 @@ public class PTra17_01 {
 		ThrowExceptionUtil.nullToBlank(null);
 		}catch(NullPointerException o){
 			System.out.println("例外が発生しました");
-			o.printStackTrace();
+			
 
 		}
 		
